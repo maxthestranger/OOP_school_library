@@ -1,6 +1,6 @@
 class Teacher < Person
-  def initialize(specialization)
-    super()
+  def initialize(specialization = 'Unknown')
+    super
     @specialization = specialization
   end
 
