@@ -1,4 +1,4 @@
-class Student < Person
+class Students < Persons
   def initialize(classroom)
     super()
     @classroom = classroom
