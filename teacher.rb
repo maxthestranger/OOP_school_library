@@ -1,4 +1,4 @@
-class Teacher < Person
+class Teacher < MyPerson
   def initialize(specialization = 'Unknown')
     super
     @specialization = specialization
