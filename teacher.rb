@@ -1,5 +1,7 @@
+require_relative './my_person'
+
 class Teacher < Person
-  def initialize(specialization = 'Unknown')
+  def initialize(specialization)
     super
     @specialization = specialization
   end
